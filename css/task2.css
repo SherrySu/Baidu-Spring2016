@@ -1,7 +1,3 @@
-*{
-	margin: 0;
-	padding: 0;
-}
 body{
 	background-color: #eee;
 }
@@ -12,6 +8,7 @@ body{
 }
 .baidu_logo{
 	margin-left: 30px;
+	margin-top: 5px;
 }
 .top a{
 	text-decoration: none;
@@ -26,14 +23,12 @@ body{
 	font-weight: bold;
 	float: left;
 	width: 80px;
+	list-style: circle;
 }
 .nav li .selected{
 	color: #ccc;
 }
 /********************Top End**********************/
-.container{
-	margin: 20px;
-}
 .container li{
 	list-style: none;
 	margin-left: 20px;
