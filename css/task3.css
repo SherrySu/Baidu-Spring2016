@@ -1,3 +1,10 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
 .container,.team-introduction,.personal-introduction,.team-details{
 	padding: 20px;
 	border: 1px solid #999;
@@ -5,6 +12,7 @@
 }
 .container{
 	overflow: hidden;
+	margin: 20px;
 }
 /*********************Team-introduction Start********************/
 .team-introduction{

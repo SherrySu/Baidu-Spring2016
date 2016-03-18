@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #ccc;
+}
+li{
+	list-style: none;
+}
+.container{
+	background: #fff;
+	width: 980px;
+	height: 1386px;
+	padding-left: 45px;
+	padding-right: 43px;
+	margin: 0 auto;
+}
+/********************Header Top********************/
+#header{
+	width: 100%;
+	position: relative;
+	border-bottom: 2px solid #938e8c;
+	font-size: 12px;
+	font-family: 黑体;
+}
+#header .logo{
+	width: 110px;
+	height: 61px;
+	background-color: #d45d5c;
+}
+#header .logo span{
+	position: absolute;
+	bottom: 6px;
+	left: 10px;
+	color: #fff;
+}
+#header .time{
+	position: absolute;
+	right: 1px;
+	bottom: 6px;
+	color: #d45d5c;
+	font-weight: bold;
+}
+/********************Header End********************/
+/********************Headlines Start********************/
+#headlines-wrap{
+	margin-top: 34px;
+}
+.headlines-img-wrap{
+	width: 641px;
+	height: 301px;
+	position: relative;
+	display: inline-block;
+}
+.headlines-img-wrap img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.headlines-img-wrap .mask{
+	width: 191px;
+	height: 301px;
+	position: absolute;
+}
+.headlines-img-wrap .mask-left{
+	left: 0;
+	background: url("../picture/mask-1.png");
+}
+.headlines-img-wrap .mask-right{
+	right: 0;
+	background: url("../picture/mask-2.png");
+}
+.headlines-text-wrap{
+	height: 300px;
+	float: right; 
+	position: relative;
+} 
+.headlines-text-wrap .line1{
+	background-color: #cc8091;
+	display: block;
+	height: 2px;
+	width: 203px;
+}
+.headlines-text-wrap .subhead{
+	font-family: 微软雅黑;
+	font-size: 24px;
+	text-decoration: underline;
+	margin-top: 13px;
+}
+.headlines-text-wrap .instructions{
+	font-size: 12px;
+	color: #676767;
+	font-family: 楷体;
+	margin-top: 4px;
+}
+.headlines-text-wrap .num700{
+	font-size: 116px;
+	color: #75b86b;
+	font-family: 微软雅黑;
+	font-style: oblique;
+	margin-left: -19px;
+}
+.headlines-text-wrap .version-num{
+	font-family: 微软雅黑;
+	color: #cc8091;
+	font-size: 55px;
+	position: absolute;
+	bottom: -13.5px;
+}
+.headlines-text-wrap .version-instructions{
+	font-family: 微软雅黑;
+	color: #cc8091;
+	font-size: 21px;
+	position: absolute;
+	left: 90px;
+}
+.headlines-text-wrap .version-instructions .cs{
+	font-size: 12px;
+	position: absolute;
+	bottom: -13.5px;
+}
+/********************Headlines End********************/
+/********************News Start********************/
+#news{
+	margin-top: 41px;
+	display: block;
+	background: #ccc;
+}
+#news>li{
+	float: left;
+	width: 213px;
+	height: 167px;
+	margin-right: 29px;
+}
+#news .title{
+	font-size: 16px;
+	text-decoration: underline;
+	font-weight: bold;
+	font-family: 微软雅黑;
+}
+#news .what{
+	color: #418c59;
+}
+#news .when{
+	color: #d2994f;
+}
+#news .how{
+	color: #cc7680;
+}
+#news .news-content{
+	font-size: 12px;
+	color: #767777;
+	font-family: 宋体;
+	margin-top: 11px;
+}
+#news .news-content .w{
+	margin-top: 28px;
+}
+#news .news-content .w-pct{
+	color: #231815;
+	font-family: 微软雅黑;
+	font-size: 12px;
+	line-height: 16px;
+    filter: Alpha(opacity = 70);/* 只支持IE6、7、8、9 */
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+    -webkit-opacity: 0.7;
+    -moz-opacity: 0.7;
+    -ms-opacity: 0.7;
+    opacity: 0.7;
+}
+#news .news-content .w-pct .percent{
+	color: #cd4a48;
+	font-style: oblique;
+}
+/********************News End********************/
