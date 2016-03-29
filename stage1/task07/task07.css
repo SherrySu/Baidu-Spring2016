@@ -78,10 +78,10 @@ a{
 	height: 692px;
 	background: url(picture/pic1.jpg) no-repeat;
 	background-size: cover;
-	margin-top: 4px;
 }
 #main-pic .mask{
 	background: url(picture/mask1.png) no-repeat;
+	background-size: cover;
 	position: absolute;
 }
 #main-pic .wrapper{
