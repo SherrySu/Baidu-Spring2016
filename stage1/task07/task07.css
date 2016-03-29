@@ -1,0 +1,697 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 微软雅黑;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.wrapper{
+	width: 1280px;
+	margin: 0 auto;
+}
+/*******************Header Start*********************/
+#header{
+	width: 100%;
+	height: 53px;
+	background-color: #fff;
+	position: relative;
+}
+#header #title{
+	margin-left: 59px;
+}
+#header #title .logo{
+	display: inline-block;
+	width: 30px;
+	height: 31px;
+	background: url(picture/spirit.png) 0 0;
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+}
+#header #title .text{
+	font-family: 黑体;
+	font-size: 21px;
+	position: absolute;
+	line-height: 53px;
+	margin-left: 42px;
+
+}
+#header #nav{
+	float: right;
+	height: 100%;
+	margin-right: 58px;
+}
+#header #nav li{
+	float: left;
+	height: 100%;
+}
+#header #nav li a{
+	display: inline-block;
+	width: 65px;
+	height: 100%;
+	line-height: 53px;
+	text-align: center;
+	color: #787b83;
+	font-size: 14px;
+	margin-left: 37px;
+}
+#header #nav li a.active{
+	border-bottom: 4px solid #e7504d;
+	color: #e7504d;
+}
+#header #nav .login{
+	display: inline-block;
+	width: 13px;
+	height: 15px;
+	background: url(picture/spirit.png) -35px 0;
+	margin-right: 6px;
+}
+/*******************Header End*********************/
+/*******************Main-pic Start*********************/
+#main-pic,#main-pic .mask{
+	position: relative;
+	width: 100%;
+	height: 692px;
+	background: url(picture/pic1.jpg) no-repeat;
+	background-size: cover;
+	margin-top: 4px;
+}
+#main-pic .mask{
+	background: url(picture/mask1.png) no-repeat;
+	position: absolute;
+}
+#main-pic .wrapper{
+	position: relative;
+}
+#main-pic .text1{
+	color: #fff;
+	font-size: 60px;
+	position: absolute;
+	left: 116px;
+	top: 231px;
+}
+#main-pic .text2{
+	color: #fff;
+	font-size: 21px;
+	position: absolute;
+	left: 125px;
+	top: 310px;
+}
+#main-pic .start{
+	width: 330px;
+	height: 63px;
+	background-color: #e74f4d;
+	color: #fff;
+	font-size: 30px;
+	position: absolute;
+	left: 126px;
+	top: 430px;
+	line-height: 63px;
+	text-align: center;
+}
+/*******************Main-pic End*********************/
+/*******************Middle-nav Start*********************/
+#middle-nav{
+	height: 250px;
+}
+#middle-nav ul{
+	height: 100%;
+}
+#middle-nav li{
+	width: 320px;
+	height: 100%;
+	float: left;
+	position: relative;
+	text-align: center;
+}
+#middle-nav .s-wrap{
+	width: 180px;
+	margin: 44px auto;
+	text-align: center;
+	font-size: 14px;
+	color: #767777;
+}
+#middle-nav .icon-1{
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	margin-top: 45px;
+	background: url(picture/spirit.png) -49px 0;
+}
+#middle-nav .icon-2{
+	display: inline-block;
+	width: 35px;
+	height: 40px;
+	margin-top: 47px;
+	background: url(picture/spirit.png) -91px 0;
+}
+#middle-nav .icon-3{
+	display: inline-block;
+	width: 35px;
+	height: 42px;
+	margin-top: 45px;
+	background: url(picture/spirit.png) -126px 0;
+}
+#middle-nav .icon-4{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-top: 47px;
+	background: url(picture/spirit.png) -161px 0;
+}
+#middle-nav .divider{
+	display: inline-block;
+	width: 1px;
+	height: 52px;
+	position: absolute;
+	bottom: 66px;
+	right: 0;
+	background-color: #767777;
+}
+/*******************Middle-nav End*********************/
+/*******************Middle-slogan Start*********************/
+#middle-slogan{
+	position: relative;
+	height: 360px;
+	background-color: #edecec;
+}
+#middle-slogan .logo{
+	display: block;
+	width: 91px;
+	height: 91px;
+	background: url(picture/spirit.png) 0 -42px;
+	background: cover;
+	position: absolute;
+	left: 50%;
+	margin-left: -31px;
+	margin-top: 89px;
+}
+#middle-slogan .text{
+	display: inline-block;
+	font-size: 54px;
+	font-family: 黑体;
+	position: absolute;
+	top: 65%;
+	left: 300px;
+	color: #a1a1a1;
+}
+/*******************Middle-slogan End*********************/
+/*******************Select Start*********************/
+#select,#select .mask{
+	width: 100%;
+	height: 341px;
+	background: url(picture/pic2.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+}
+#select .mask{
+	background: url(picture/mask2.png);
+	position: absolute;
+}
+#select .wrapper{
+	text-align: center;
+	position: relative;
+}
+#select span{
+	display: block;
+	width: 30px;
+	height: 3px;
+	position: absolute;
+	top: 90px;
+	left: 50%;
+	margin-left: -15px;
+	background-color: #fff;
+}
+#select p{
+	color: #fff;
+	font-size: 12px;
+}
+#select .select-title{
+	font-size: 21px;
+	position: absolute;
+	left: 50%;
+	margin-left: -115px;
+	top: 54px;
+}
+#select .select-details{
+	position: absolute;
+	left: 50%;
+	margin-left: -168px;
+	top: 110px;
+}
+#select #menu{
+	position: absolute;
+	top: 172px;
+	left: 50%;
+	margin-left: -500px;
+}
+#select #menu select{
+	display: inline-block;
+	width: 235px;
+	height: 35px;
+	margin-right: 28px;
+	color: #b5b7b7;
+}
+#select #menu option{
+	background-color: #e3e2e4;
+	color: #787879;
+}
+#select #menu select.active{
+	border: 1px solid #be4f48;
+}
+#select .btn-select{
+	display: inline-block;
+	width: 235px;
+	height: 35px;
+	color: #fff;
+	background-color: #be4e48;
+	font-size: 14px;
+	line-height: 35px;
+}
+/*******************Select End*********************/
+/*******************Activity Start*********************/
+#activity{
+	width: 100%;
+	height: 604px;
+	background-color: #f7f7f7;
+	position: relative;
+}
+#activity ul{
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -514px;
+	margin-top: -195px;
+}
+#activity li{
+	width: 220px;
+	height: 390px;
+	float: left;
+	margin-right: 37px;
+	text-align: center;
+}
+#activity p{
+	color: #898a8a;
+	font-size: 12px;
+	line-height: 23px;
+}
+#activity p.tit{
+	color: #323333;
+	font-size: 15px;
+}
+#activity p.tit-sh{
+	color: #000;
+	font-family: 黑体;
+	font-size: 22px;
+}
+#activity p.tit-sh>span 
+{ 
+　　display: inline-block;
+　　padding-left: 100%; 
+}
+#activity .img-wrap{
+	display: inline-block;
+	width: 217px;
+	height: 335px;
+	border: 1px solid #e1e1e1;
+	border-bottom: 0;
+	background-color: #fff;
+	position: relative;
+}
+#activity .img-wrap img{
+	position: absolute;
+	top: 50%;
+	margin-top: -155px;
+	left: 50%;
+	margin-left: -100px;
+}
+/*******************Activity End*********************/
+/*******************News Start*********************/
+#new-world{
+	width: 100%;
+	height: 567px;
+}
+#new-world .world-figure{
+	display: inline-block;
+	height: 100%;
+	width: 851px;
+	background: url(picture/pic3.jpg);
+	position: relative;
+	text-align: center;
+}
+#new-world .world-figure .arrow-r{
+	width: 26px;
+	height: 31px;
+	background: url(picture/spirit.png) -227px 0;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -15.5px;
+}
+#new-world .world-figure .world-textL-wrap{
+	width: 100%;
+	color: #fff;
+	font-size: 22px;
+	position: absolute;
+	top: 50%;
+	margin-top: -190px;
+}
+#new-world .world-figure .world-textL-nw{
+	font-size: 50px;
+}
+#new-world .world-figure span{
+	font-size: 158px;
+	line-height: 120px;
+}
+#new-world .world-figure .world-textL-wrap p{
+	margin-top: 20px;
+}
+#new-world .world-right-wrap{
+	float: right;
+	text-align: center;
+	margin-top: 168px;
+	margin-right: 70px;
+}
+#new-world .world-right-wrap .world-textR-title{
+	display: block;
+	margin: 0 auto;
+	width: 104px;
+	height: 20px;
+	background: url(picture/spirit.png) -91px -43px;
+	margin-bottom: 20px;
+}
+#new-world .world-right-wrap div{
+	display: inline-block;
+	text-align: left;
+}
+#new-world .world-right-wrap p{
+	font-size: 12px;
+	color: #b0b0b0;
+	line-height: 31px;
+}
+#new-world .world-right-wrap .more{
+	display: inline-block;
+	width: 104px;
+	height: 32px;
+	border: 1px solid #e5676a;
+	color: #e5676a;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 30px;
+	margin-top: 35px;
+}
+.list-point{
+	display: inline-block;
+	margin-left: 14px;
+	margin-top: 24px;
+}
+.list-point li{
+	float: left;
+	border-radius: 12px;
+	width: 12px;
+	height: 12px;
+	border: 1px solid #929292;
+	margin-right: 14px;
+}
+.list-point li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.list-point li.active{
+	background-color: #929292;
+}
+
+#new-era{
+	width: 100%;
+	height: 521px;
+	position: relative;
+}
+#new-era .era-left{
+	display: inline-block;
+	width: 426px;
+	height: 100%;
+	background-color: #e74f4d;
+	text-align: center;
+	color: #fff;
+	font-size: 21px;
+}
+#new-era .era-left .ne,#new-era .era-middle .ne{
+	margin-top: 173px;
+}
+.line{
+	width: 30px;
+	height: 2px;
+	background-color: #fff;
+	margin: 25px auto;
+}
+#new-era .era-left .more,#new-era .era-middle .more{
+	width: 167px;
+	height: 41px;
+	border: 1px solid #fff;
+	line-height: 38px;
+	margin: 0 auto;
+}
+#new-era .era-left .more a,#new-era .era-middle .more a{
+	color: #fff;
+}
+
+#new-era .era-middle{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 426px;
+	right: 430px;
+	text-align: center;
+	font-size: 21px;
+	color: #333;
+}
+#new-era .era-middle .line{
+	background-color: #333;
+}
+#new-era .era-middle .more{
+	border: 1px solid #e95a58;
+}
+#new-era .era-middle .more a{
+	color: #e95a58;
+}
+
+#new-era .era-figure{
+	float: right;
+	display: inline-block;
+	width: 430px;
+	height: 100%;
+	background: url(picture/pic4.jpg);
+	position: relative;
+}
+#new-era .era-figure-mask{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background: url(picture/mask3.png) no-repeat;
+}
+#new-era .era-figure-mask .arrow-l{
+	width: 26px;
+	height: 31px;
+	background: url(picture/spirit.png) -203px 0;
+	position: absolute;
+	top: 50%;
+	margin-top: -15.5px;
+}
+/*******************News End*********************/
+/*******************Volunteer Start*********************/
+#volunteer{
+	width: 100%;
+	height: 678px;
+	text-align: center;
+	font-size: 12px;
+	color: #aaa;
+}
+#volunteer .volunteer-title{
+	font-size: 21px;
+	font-family: 黑体;
+	color: #000;
+	margin-top: 118px;
+}
+#volunteer .line{
+	background-color: #ea6563;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+#volunteer .agreement-wrap{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 106px;
+}
+
+#volunteer .agreement-term{
+	position: absolute;
+	left: 0;
+	width: 285px;
+	height: 100%;
+	padding-top: 2px;
+	text-align: left;
+}
+#volunteer .agreement-term p{
+	font-family: 黑体;
+	font-size: 14px;
+	color: #74706f;
+	margin-bottom: 26px;
+	margin-top: 50px;
+}
+#volunteer .agreement-term p.term-detailed{
+	font-family: 宋体;
+	font-size: 12px;
+	color: #9d9b9a;
+	margin-bottom: 0;
+}
+.arrow-more{
+	display: inline-block;
+	color: #959291;
+	position: absolute;
+	right: 0;
+	font-size: 12px;
+	font-family: 宋体;
+}
+.arrow-more span{
+	display: inline-block;
+	width: 9px;
+	height: 5px;
+	background: url(picture/spirit.png) -91px -63px;
+}
+
+#volunteer .information{
+	width: 640px;
+	position: absolute;
+	right: 0;
+	margin-left: 75px;
+	cellpadding: 0;
+	cellspacing: 0;
+	margin-bottom: 166px;
+}
+#volunteer .information input{
+	width: 292px;
+	height: 12px;
+	background-color: #ececee;
+	color: #6c6868;
+	padding: 14px 0 14px 18px;
+	line-height: 12px;
+	margin-bottom: 14px;
+	border: 0;
+}
+#volunteer .information textarea{
+	width: 622px;
+	height: 120px;
+	background-color: #ececee;
+	border: 0;
+	color: #6c6868;
+	padding: 14px 0 14px 18px;
+	margin-bottom: 14px;
+}
+#volunteer .information a{
+	display: block;
+	width: 100%;
+	height: 40px;
+	background-color: #ededee;
+	line-height: 40px;
+	font-family: 黑体;
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+}
+/*******************Volunteer End*********************/
+/*******************Contact Start*********************/
+#contact{
+	width: 100%;
+	height: 266px;
+	background: #32353e;
+	color: #fff;
+	font-size: 12px;
+	font-family: 宋体;
+	text-align: center;
+	padding-top: 92px;
+}
+#contact .contact-title{
+	font-family: 黑体;
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+#contact input{
+	width: 428px;
+	height: 40px;
+	border: 1px solid #a5a7aa;
+}
+#contact a{
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	border: 1px solid #51535b;
+	color: #fff;
+	font-size: 15px;
+	line-height: 38px;
+	background-color: #707278;
+	vertical-align: vertical;
+	margin: -1px 0 37px -8px;
+}
+.link li{
+	display: inline-block;
+	background: #000;
+	margin: 0 auto;
+	background: url(picture/spirit.png);
+	margin-right: 28px;
+}
+.link li.qq{
+	width: 23px;
+	height: 25px;
+	background-position: 0 -133px;
+}
+.link li.sohu{
+	width: 28px;
+	height: 25px;
+	background-position: -52px -133px;
+}
+.link li.twitter{
+	width: 27px;
+	height: 25px;
+	background-position: -109px -133px;
+}
+.link li.ball{
+	width: 25px;
+	height: 25px;
+	background-position: -158px -133px;
+	margin-right: 0;
+}
+/*******************Contact End*********************/
+/*******************Footer Start*********************/
+#footer{
+	width: 100%;
+	height: 58px;
+	background: #2f2f38;
+	color: #fff;
+	font-size: 12px;
+	font-family: 宋体;
+	line-height: 58px;
+}
+#footer span{
+	margin-left: 98px;
+}
+#footer .to-top{
+	float: right;
+	margin-right: 40px;
+	color: #fff;
+	font-size: 12px;
+	font-family: 宋体;
+}
+/*******************Footer End*********************/
+@media screen and (max-width: 1280px){
+	#main-pic,#main-pic .mask,#middle-slogan,#select,#select .mask,
+	#activity,#new-world,#new-era,#volunteer,#contact,#footer{
+		width: 1280px;
+	}
+}
