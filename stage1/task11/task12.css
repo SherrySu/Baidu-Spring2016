@@ -1,0 +1,145 @@
+/***************************Basic start*********************************/
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+/***************************Basic End*********************************/
+/***************************Table start*********************************/
+thead tr{
+	background-color: #000;
+	color: #fff;
+}
+tr:nth-child(2n){
+	background-color: #ccc;
+}
+tbody tr:nth-child(1){
+	color: #ff0000;
+}
+tbody tr:nth-child(2){
+	color: #ff0000;
+}
+tbody tr:nth-child(3){
+	color: #ff0000;
+}
+/***************************Table End*********************************/
+/***************************Input start*********************************/
+input{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100px;
+	-webkit-transition: width 500ms;
+	-moz-transition: width 500ms;
+	-ms-transition: width 500ms;
+	-o-transition: width 500ms;
+	transition: width 500ms;
+}
+input:focus{ 
+	width: 200px;
+}
+/***************************Input End*********************************/
+/***************************Banner End*********************************/
+.wrapper{
+	position: relative;
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	overflow: hidden;
+}
+.content{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.content div{
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	left: 0;
+}
+.content div:nth-child(1){
+	background-color: #0f0;
+	left: 0;
+}
+.content div:nth-child(2){
+	background-color: #00f;
+	left: 400px;
+}
+.content div:nth-child(3){
+	background-color: #f00;
+	left: 800px;
+}
+.content div:nth-child(4){
+	left: 1200px;
+	background-color: #0f0;
+}
+.list{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+}
+.list li{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	font-size: 21px;
+	background-color: #cecece;
+}
+.list li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.list li:nth-child(3){
+	margin-right: 0;
+}
+.content1{
+	animation: rolling 8s infinite ease;
+	-webkit-animation: rolling 8s infinite ease;
+}
+.content2{
+	transition: 0.5s left;
+}
+#banner1:target~.content2{
+	left: 0;
+}
+#banner2:target~.content2{
+	left: -100%;
+}
+#banner3:target~.content2{
+	left: -200%;
+}
+@keyframes rolling{
+	0%{
+		transform: translate(0);
+	}
+	15%{
+		transform: translate(0);
+	}
+	30%{
+		transform: translate(-400px);
+	}
+	50%{
+		transform: translate(-400px);
+	}
+	65%{
+		transform: translate(-800px);
+	}
+	85%{
+		transform: translate(-800px);
+	}
+	100%{
+		transform: translate(-1200px);
+	}
+}
